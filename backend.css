@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: blueviolet;
+}
+.form{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+}
+.email{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.email label{
+    font-size: 30px;
+}
+.email input{
+width: 250px;
+height: 35px;
+border-radius: 20px;
+}
+
+.password{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.password label{
+    font-size: 30px;
+}
+.password input{
+width: 250px;
+height: 35px;
+border-radius: 20px;
+}
+.btn{
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 250px;
+height: 45px;
+border-radius: 20px;
+background-color: black;
+color: white;
+font-size: 20px;
+}
