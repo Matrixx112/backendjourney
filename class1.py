@@ -44,3 +44,9 @@ print(f"the subtraction of the number is {m}")
 
 from math import *
 print(sqrt(100))
+#set
+#set is a collection of unique elements
+#set is mutable
+#set is unordered
+salary = {4,5,4,5,8,9,30}
+print(salary)
