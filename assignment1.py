@@ -1,9 +1,9 @@
 # odd or even number checker
-x=int(input("enter any number"))
-if (x % 2) == 0:
-    print("number is even")
-else:
-    print("number is odd")
+# x=int(input("enter any number"))
+# if (x % 2) == 0:
+#     print("number is even")
+# else:
+#     print("number is odd")
 
 
 # to check grades
@@ -21,21 +21,23 @@ elif (g >= 65) and (g <= 74):
         print("B")
 elif (g >= 75) and (g <= 100):
         print("A")
+else:
+        print("invalid value")
 
 
 # to check positive,negative or zero numbers
-y=(int(input("enter any number")))
-if (y == 0):
-    print("zero")
-if (y > 0):
-    print("positive")
-if (y < 0):
-    print("negative")
+# y=(int(input("enter any number")))
+# if (y == 0):
+#     print("zero")
+# if (y > 0):
+#     print("positive")
+# if (y < 0):
+#     print("negative")
         
-u=(int(input("enter year")))
-if (u % 4 ==0 and u % 100 != 0) or (u % 400 == 0):
-    print(f"{u} is a leap year")
-else:
-    print(f"{u} is not a leap year")
+# u=(int(input("enter year")))
+# if (u % 4 ==0 and u % 100 != 0) or (u % 400 == 0):
+#     print(f"{u} is a leap year")
+# else:
+#     print(f"{u} is not a leap year")
  
 
